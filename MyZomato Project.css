@@ -1,0 +1,1024 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.zomato-header-section {
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-size: cover;
+    max-width: 100%;
+    height: 50vh;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-header-section {
+        height: 60vh;
+    }
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-icon {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#sectionNavbar {
+    display: none;
+}
+
+.navbar-section {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.cancel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-heading {
+    margin-right: 50px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #db3a3a;
+}
+
+.unordered-nav-list {
+    list-style-type: none;
+}
+
+.nav-items {
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#sectionHeader2 {
+    display: none;
+}
+
+@media screen and (min-width:820px) {
+    #sectionHeader2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width:820px) {
+    #navIconContainer {
+        display: none;
+    }
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.get-app-container {
+    display: flex;
+    margin-left: 100px;
+}
+
+@media screen and (min-width:1200px) {
+    .get-app-container {
+        margin-left: 100px;
+    }
+}
+
+.get-app {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.moblie-icon {
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.unordered-list-container {
+    display: flex;
+    margin-left: 100px;
+}
+
+.unordered-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.list-items {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+@media screen and (min-width:992px) {
+    .list-items {
+        font-size: 18px;
+    }
+}
+
+.zomato-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zomato-heading {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@media screen and (min-width:768px) {
+    .zomato-heading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .zomato-heading {
+        font-size: 4rem;
+    }
+}
+
+.zomato-description {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .zomato-description {
+        font-size: 30px;
+    }
+}
+
+.zomato-navigate-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .zomato-navigate-container {
+        flex-direction: row;
+    }
+}
+
+.input-location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .input-location-container {
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .location-search-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 600px;
+        height: 45px;
+    }
+}
+
+.input {
+    border: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .input {
+        font-size: 16px;
+    }
+}
+
+.location-icon {
+    color: #db3a3a;
+    padding-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:992px) {
+    .location-icon {
+        font-size: 25px;
+    }
+}
+
+.down-icon {
+    color: rgb(80, 78, 78);
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:992px) {
+    .down-icon {
+        font-size: 25px;
+    }
+}
+
+.input-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .input-search-container {
+        background-color: transparent;
+    }
+}
+
+.search-icon {
+    color: #8f8989;
+    padding-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:992px) {
+    .search-icon {
+        font-size: 25px;
+    }
+}
+
+.vertical-line {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .vertical-line {
+        display: block;
+        border: 1px solid grey;
+        height: 32px;
+        margin-top: 14px;
+    }
+}
+
+.zomato-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width:992px) {
+    .zomato-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.zomato-display-cards-container {
+    margin: 25px 25px 20px 25px;
+}
+
+.zomato-each-card-container {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+}
+
+.display-card-image {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    height: 160px;
+    width: 200px;
+}
+
+@media screen and (min-width:568px) {
+    .display-card-image {
+        height: 220px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .display-card-image {
+        height: 230px;
+        width: 340px;
+    }
+}
+
+.zomato-card-heading {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-card-heading {
+        font-size: 1.2rem;
+    }
+}
+
+.zomato-card-description {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(117, 112, 112);
+    padding-left: 12px;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-card-description {
+        font-size: 1rem;
+    }
+}
+
+/* -------------------------------------------------------------- */
+.zomato-collections-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.zomato-display-collections-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-collections-container {
+        margin-right: 270px;
+    }
+}
+
+.zomato-display-collections-heading {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-collections-heading {
+        font-size: 34px;
+    }
+}
+
+.zomato-display-collections-description {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-collections-description {
+        font-size: 16px;
+    }
+}
+
+.zomato-collections-description-container {
+    display: none;
+    margin-left: 10px;
+}
+
+@media screen and (min-width:500px) {
+    .zomato-collections-description-container {
+        display: block;
+    }
+}
+
+.zomato-collections-description {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(227, 36, 36);
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-collections-description {
+        font-size: 14px;
+    }
+}
+
+.zomato-display-card-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.zomato-display-card-image1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("https://i.pinimg.com/236x/32/c5/0b/32c50baab24486238418fb3eb707eaee.jpg");
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    flex-shrink: 2;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-card-image1 {
+        width: 255px;
+        height: 400px;
+    }
+}
+
+.zomato-display-card-image2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("https://i.pinimg.com/474x/4c/72/ee/4c72eea200c44785e45baefb556bf636.jpg");
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    flex-shrink: 2;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-card-image2 {
+        width: 255px;
+        height: 400px;
+    }
+}
+
+.zomato-display-card-image3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("https://i.pinimg.com/474x/83/d1/f0/83d1f06de92a431d628a353298a421f3.jpg");
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    flex-shrink: 2;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-card-image3 {
+        width: 255px;
+        height: 400px;
+    }
+}
+
+.zomato-display-card-image4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("https://i.pinimg.com/236x/f2/31/d2/f231d25c0ae7a86df4d5b8258a4a1c94.jpg");
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    flex-shrink: 2;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-card-image4 {
+        width: 255px;
+        height: 400px;
+    }
+}
+
+.zomato-display-card-image-description {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-display-card-image-description {
+        font-size: 16px;
+    }
+}
+
+.zomato-display-card-image-places {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+/* ---------------------------------------------------------- */
+.zomato-localities-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zomato-localities-heading {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (min-width:500px) {
+    .zomato-localities-heading {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-localities-heading {
+        font-size: 35px;
+    }
+}
+
+.zomato-localities-mainplace {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-localities-mainplace {
+        font-size: 45px;
+    }
+}
+
+.zomato-places-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.zomato-each-place-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #bbb7b7;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 5px 10px 10px 10px;
+    width: 200px;
+    height: 80px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-each-place-container {
+        width: 350px;
+        height: 100px;
+    }
+}
+
+.zomato-display-place-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.zomato-display-place-heading {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-displace-place-heading {
+        font-weight: 600;
+    }
+}
+
+.zomato-display-places-number {
+    color: #434141;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* ------------------------------------------------------- */
+.zomato-get-app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:500px) {
+    .zomato-get-app-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.zomato-get-app-image {
+    width: 350px;
+    height: 400px;
+}
+
+@media screen and (min-width:500px) {
+    .zomato-get-app-image {
+        margin-top: 50px;
+        height: 450px;
+        width: 400px;
+    }
+}
+
+.zomato-get-app-details-container {
+    margin-top: 0px;
+}
+
+.zomato-get-app-heading {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #000000;
+}
+
+@media screen and (min-width:500px) {
+    .zomato-get-app-heading {
+        font-size: 42px;
+    }
+}
+
+.zomato-get-app-description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(113, 108, 108);
+}
+
+.zomato-get-app-input {
+    width: 12px;
+    height: 12px;
+    accent-color: rgb(214, 27, 27);
+    cursor: pointer;
+
+}
+
+.zomato-get-app-label {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(51, 50, 50);
+}
+
+.zomato-get-app-input-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.zomato-get-app-text-input {
+    width: 200px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 2px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.zomato-get-app-share-button {
+    width: 100px;
+    height: 35px;
+    color: #ffffff;
+    background-color: rgb(197, 29, 63);
+    ;
+    border: 2px solid rgb(214, 27, 27);
+    ;
+    border-radius: 5px;
+    outline: none;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.zomato-get-app-dowload {
+    font-family: Arial;
+    font-size: 14px;
+    color: grey;
+}
+
+.zomato-get-app-dowload-container {
+    display: flex;
+}
+
+.zomato-get-app-dowload-image {
+    width: 150px;
+    height: 45px;
+    padding-right: 10px;
+}
+
+/* -------------------------------------------------------------- */
+.zomato-explore-options-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.zomato-explore-options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.zomato-explore-options-heading {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width:400px) {
+    .zomato-explore-options-heading {
+        font-size: 35px;
+    }
+}
+
+.zomato-explore-select-container {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #0e0e0e;
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1px solid #c1b9b9;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    margin: 10px 0px 5px 0px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:400px) {
+    .zomato-explore-select-container {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .zomato-explore-select-container {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .zomato-explore-select-container {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-explore-select-container {
+        width: 1100px;
+        height: 65px;
+        font-size: 16px;
+    }
+}
+
+/* ------------------------------------------------------- */
+.zomato-footer-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.zomato-footer-section-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+@media screen and (min-width:650px) {
+    .zomato-footer-section-container1 {
+        width: 64%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-footer-section-container1 {
+        width: 72%;
+    }
+}
+
+.zomato-footer-section-mainheading {
+    color: #000000;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-footer-section-mainheading {
+        font-size: 40px;
+    }
+}
+
+.zomato-footer-select-options-container {
+    display: flex;
+}
+
+.zomato-footer-select-container {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:1200px) {
+    .zomato-footer-select-container {
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+/* ------------------------------------------------- */
+.zomato-footer-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.zomato-footer-section-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .zomato-footer-section-container2 {
+        align-items: center;
+    }
+}
+
+.zomato-footer-section-details,
+.zomato-footer-section-social-links {
+    text-align: left;
+    margin: 0 15px;
+    flex: 1 1 calc(20% - 30px);
+    min-width: 180px;
+}
+
+.zomato-footer-section-details ul,
+.zomato-footer-section-social-links-container {
+    padding: 0;
+    margin: 0;
+}
+
+.zomato-footer-section-heading {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.zomato-footer-section-unordered-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.zomato-footer-section-listItem {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 5px 0;
+    color: #555;
+}
+
+.zomato-footer-section-social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.zomato-footer-section-social-links-heading {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.zomato-footer-section-social-links-container {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links-icons {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.zomato-footer-section-dowload-image {
+    width: 130px;
+    height: 40px;
+    margin: 5px 0px 5px 0px;
+}
+
+.zomato-footer-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+    width: 100%;
+}
+
+.zomato-footer-section-container3 {
+    width: 75%;
+}
+
+.zomato-footer-section-hr {
+    color: rgb(212, 205, 205);
+}
